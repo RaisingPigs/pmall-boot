@@ -19,7 +19,6 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://localhost:3306/pmall?characterEncoding=utf-8&serverTimezone=UTC
       username: root
-      #      password: Pjh_2905231006
       password: root
       #连接池中的初始化连接数量
       initial-size: 1
