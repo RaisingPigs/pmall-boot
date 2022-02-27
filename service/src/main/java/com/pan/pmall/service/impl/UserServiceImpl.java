@@ -65,7 +65,6 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional(propagation = Propagation.SUPPORTS)
     public ResultVo checkLogin(String username, String password) {
-        int i = 1 / 0;
         QueryWrapper<User> wrapper = new QueryWrapper<>();
         wrapper.lambda().eq(User::getUsername, username);
         User user = userMapper.selectOne(wrapper);
